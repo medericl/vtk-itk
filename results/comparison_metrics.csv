@@ -1,0 +1,5 @@
+method,MSE,NCC,time_sec,final_metric_value,n_iterations
+baseline_no_registration,39167.0997,0.5364,0,,
+translation,106210.0566,-0.3930,13.55,-0.258639,198
+rigid,10510.2253,0.8807,17.35,-0.756448,188
+affine,113106.5152,-0.3690,174.77,-0.217627,1500
