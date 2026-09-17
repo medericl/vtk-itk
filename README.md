@@ -57,13 +57,9 @@ The two segmented tumors are compared using:
 
 ![Rigid registration](results/comparison_rigid.png)
 
-### Segmentation comparison
+### 3D tumor segmentation visualization
 
-![Segmentation comparison](results/seg_comparison.png)
-
-### Registration convergence
-
-![Registration convergence](results/convergence_curves.png)
+![3D tumor segmentation](results/image.png)
 
 ## Installation
 
@@ -84,7 +80,7 @@ pip install itk vtk numpy
 Run the complete pipeline with:
 
 ```bash
-python main.py
+uv run python main.py
 ```
 
 Generated images, segmentation masks, and registered volumes are saved in the `results/` directory. The program also opens an interactive VTK window for 3D visualization.
